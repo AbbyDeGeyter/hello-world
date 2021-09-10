@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    I360 Web Design 
+    Abby Degeyter
+-->
+<title> Work History Page</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/nav.styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Raleway:ital,wght@0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+
+
+
+    <!-- Font Awesome - For use in I360 -->
+        <script src="https://kit.fontawesome.com/bf37eaf948.js" crossorigin="anonymous"></script>
+       
+        
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+		<nav id="mySidenav" class="sidenav">
+      <a class="closebtn">&times;</a>
+      <a href="index.html">Home</a>
+			<a href="about.html">About</a>
+			<a href="education.html">Education</a>
+			<a href="work.html">Work</a>
+			<a href="contact.html">Contact</a>
+		</nav>
+    <!-- Use any element to open the sidenav -->
+	<div class="openbtn">
+		<i class="fas fa-bars fa-2x"></i>
+		<span class="menu-text">menu</span>
+	</div>
+    <div class="all-over-bkg"></div>
+    
+    <div class="menu-header">
+        <div class="menu-header-content">
+            <div class="hvr-grow">
+                <a href="index.html"> <img class="abby-logo" src="images/index/Asset 1.png" alt="logo"> </a>
+            </div> 
+        </div>
+    </div>
+
+    <div class="work-img-row1">
+        <img class="work-portrait" src="images/Work/Screen Shot 2020-11-17 at 5.33.26 PM.png">
+    </div>
+    
+    <div class="work-intro">
+        <div class="work-par">
+            <h1> Work </h1>
+            <p> My aspirations are within fields of both design and technology. I hope to someday be within a field that will satisfy both my creative side as well as my logical side. Below are some of my previous job with the task and skills that were used to complete them. </p>
+            <div class="res-link">
+                <a href="images/about/Resume2020.pdf" class="hvr-icon-forward">
+                    Get My Resume!
+                    <i class="fa fa-chevron-circle-right hvr-icon"></i>
+                </a>   
+            </div>
+        </div>
+    </div>
+    <!--From https://www.w3schools.com/howto/howto_js_collapsible.asp */-->
+    <div class="wrk-exp-sec">
+        <div class="past-jobs">
+            <h1> Work Experience  </h1>
+            
+            <button type="button" class="collapsible">Daze Decor</button>
+            <div class="content">
+                <p>•Creation of new logo, online media content, printable content<br/> •Creation of digital presence online <br/>•Assistance in creation of online store</p>
+            </div>
+            <button type="button" class="collapsible">Essap.Pro</button>
+            <div class="content">
+                <p>•Creation of branding material<br/> •In process of creating online presence through website</p>
+            </div>
+            <button type="button" class="collapsible">South Central Endodontics</button>
+            <div class="content">
+                <p>•Creation of new logo, online media content, photography of office for online<br/> •Creation of digital presence online </p>
+            </div>
+            <button type="button" class="collapsible">Von Maur</button>
+            <div class="content">
+                <p>•Assist Customers in their entire shopping experience including; greeting, selecting merchandise, assisting in the fitting room, and completing purchases<br/>
+                    •Creating transfers of merchandise, and phone orders<br/>
+                    •Merchandising new merchandise stock
+                       </p>
+            </div>
+        </div>
+        <div class="projects">
+            <h1> Past Projects </h1>
+            <div class="essap">
+                <div class= "essap-info">
+                    <h2> ESSAP </h2>
+                    <p> This project was created for a company who is looking to create attachment products for Bobcat excavators. This project was quite the challenge because the products scope was far from anything I had done before involving design. While the project was challenging to my design skills it was very rewarding in the end because I was able to re-evaluate the way I view my approach to design. </p>
+                </div>
+                <img class="essap" src="images/Work/EssapMockupPage.jpg">
+            </div>
+
+            <div class="potholes">
+                 <!--Code Sourced from https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video-->
+                <video controls width="250">
+
+                    <source src="images/Work/potholeProjectFinal1.mp4"
+                            type="video/mp4">
+                
+                    Sorry, your browser doesn't support embedded videos.
+                </video>
+                <div class="potholes-info">
+                    <h2> Potholes</h2>
+                    <p> This project was created my sophomore year at Indiana University while in I-101. This app design was created as a solution to a problem given to us as a final project. The problem was that <i>"potholes have caused a rift between the residents of Bloomington and the government, as well as Bloomington is looking for a for residents to notify them of potholes in their area."</i> The solution that was created was an app that allowed residents to create complaints on the go about road side hazards, in turn the residents are made to feel heard from both government feedback as to receiving their indications as well as local rewards for creating reports. The basis of this idea surrounded a preexisting app called <i> Waze</i> this meant that not only were users able to create these reports on the go they were able to see where others had made reports and choose different routes based on if there were potential hazards in the area.    </p>
+                </div>
+               
+                
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer>
+        <a class="hvr-underline-from-center" href="mailto:abigailkdegeyter@gmail.com">Email Me! </a>
+    </footer >   
+    
+    <!--JavaScript-->  
+    <!--Retrived from I360 Project 5 zip-->
+    <script src="nav.js"></script>
+    <!--From https://www.w3schools.com/howto/howto_js_collapsible.asp */-->
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+            content.style.display = "none";
+            } else {
+            content.style.display = "block";
+            }
+        });
+        }
+    </script>
+
+</body>
+</html>
